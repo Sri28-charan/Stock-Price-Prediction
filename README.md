@@ -1,6 +1,6 @@
 
 
-Stock Price Prediction using Multi-Feature LSTM
+# Stock Price Prediction using Multi-Feature LSTM
 💡 Project Goal
 The primary goal of this project is to build a robust deep learning model to predict the next day's closing price of a stock. While simple models often rely on a single feature (e.g., historical closing prices), this project explores a more advanced approach by incorporating a wider range of market data to improve prediction accuracy.
 
