@@ -13,6 +13,9 @@ This project follows a standard machine learning workflow, but with specific con
   - Why?
   - It's crucial to have a clean, consistent dataset. Using a reliable library like yfinance ensures the data is accurate. A simple plot of the closing price provides an immediate visual of the stock's trend over time.
 
+****Initial Tesla Closing Price Data (2010-2020)**
+![Initial Tesla Closing Price](tesla_closing_price.png)
+
 ### Step 2: Multi-Feature Preprocessing
   - Features Used: Open, High, Low, Close, Volume.
   - Action: Instead of isolating a single column, we select these five key features. All five are then scaled to a range between 0 and 1 using MinMaxScaler.
@@ -35,12 +38,15 @@ This project follows a standard machine learning workflow, but with specific con
   - Action: After training, the model is used to make predictions on the unseen 20% of the test data.
   - Post-processing: The predicted values and the actual test values are "inverse-transformed" back to their original dollar scale. This is a critical step to make the results interpretable and meaningful.
   - Evaluation: The Root Mean Squared Error (RMSE) is calculated to quantify the average prediction error in USD. The final step is a plot that visually compares the model's predictions with the actual stock prices, providing a clear picture of its performance.
+    
+**Model Prediction Results (Actual vs. Predicted)**
+![Actual vs Predicted Stock Prices](tesla_prediction_results.png)
 
 ## 🚀 How to Run the Project
 This project is designed to be run on Google Colab, a free cloud-based notebook environment.
 
 Open in Google Colab: Click the "Open in Colab" badge 
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sri28-charan/Stock-Price-Prediction/blob/main/Stock-Price-Prediction.ipynb)
 
 Install Library: Run the first cell to install the yfinance library.
 
