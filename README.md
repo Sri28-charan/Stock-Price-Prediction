@@ -14,7 +14,7 @@ This project follows a standard machine learning workflow, but with specific con
   - It's crucial to have a clean, consistent dataset. Using a reliable library like yfinance ensures the data is accurate. A simple plot of the closing price provides an immediate visual of the stock's trend over time.
 
 ****Initial Tesla Closing Price Data (2010-2020)**
-![Initial Tesla Closing Price](tesla_closing_price.png)
+![Initial Tesla Closing Price](Tesla_closing_Price.png)
 
 ### Step 2: Multi-Feature Preprocessing
   - Features Used: Open, High, Low, Close, Volume.
@@ -40,7 +40,7 @@ This project follows a standard machine learning workflow, but with specific con
   - Evaluation: The Root Mean Squared Error (RMSE) is calculated to quantify the average prediction error in USD. The final step is a plot that visually compares the model's predictions with the actual stock prices, providing a clear picture of its performance.
     
 **Model Prediction Results (Actual vs. Predicted)**
-![Actual vs Predicted Stock Prices](tesla_prediction_results.png)
+![Actual vs Predicted Stock Prices](Tesla_prediction_results.png)
 
 ## 🚀 How to Run the Project
 This project is designed to be run on Google Colab, a free cloud-based notebook environment.
