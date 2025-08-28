@@ -46,7 +46,7 @@ This project follows a standard machine learning workflow, but with specific con
 This project is designed to be run on Google Colab, a free cloud-based notebook environment.
 
 Open in Google Colab: Click the "Open in Colab" badge 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sri28-charan/Stock_Price_Prediction/blob/main/Stock-Price-Prediction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sri28-charan/Stock-Price-Prediction/blob/main/Stock_Price_Prediction.ipynb)
 
 Install Library: Run the first cell to install the yfinance library.
 
